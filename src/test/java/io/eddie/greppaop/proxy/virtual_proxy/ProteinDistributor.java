@@ -13,7 +13,7 @@ public class ProteinDistributor implements SupplementProvider{
     }
 
     @Override
-    public String provide() {
+    public String provide() throws Exception {
 
         log.info("유통업체가 주문을 받았습니다!");
 
